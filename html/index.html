@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Clima</title>
+
+    <link rel="shortcut icon" href="/images/clear.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">    <link rel="stylesheet" href="/css/index.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <div class="busqueda">
+            <i class="material-symbols-rounded">
+                location_on
+            </i>
+            <input type="text" placeholder="Ingrese ubicación">
+            <button>
+                <span class="material-symbols-rounded">
+                    search
+                    </span>
+            </button>
+        </div>
+
+        <div class="error">
+            <img src="/images/404.png" alt="NOTFOUND_IMAGE">
+            <p>No pude encontrar el lugar ༼ ༎ຶ ෴ ༎ຶ༽ Intente otra vez!</p>
+        </div>
+
+        <div class="clima">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descripcion"></p>
+        </div>
+
+        <div class="clima_desc">
+            <div class="humedad">
+                <i class="material-symbols-rounded">
+                    water
+                </i>
+                <div class="texto">
+                    <span></span>
+                    <p>humedad</p>
+                </div>
+            </div>
+
+            <div class="viento">
+                <i class="material-symbols-rounded">
+                    air
+                </i>
+                <div class="texto">
+                    <span></span>
+                    <p>viento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="/js/index.js"></script>
+
+</html>
